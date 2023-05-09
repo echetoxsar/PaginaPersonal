@@ -65,6 +65,7 @@ h1 {
     margin: 10% auto;
     border-radius: 15px;
     color: #fff;
+    cursor: pointer;
 }
 footer {
     background-color: #0074D9;
