@@ -61,6 +61,7 @@ h1 {
 }
 #cv {
     max-width: 150px;
+    min-width: 120px;
     background-color: #0074D9;
     margin: 10% auto;
     border-radius: 15px;
