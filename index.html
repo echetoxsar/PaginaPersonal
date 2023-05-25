@@ -7,62 +7,65 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Daniel Echeto</title>
     <link rel="stylesheet" type="text/css" href="css/style.css">
-    </head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Serif:ital,wght@1,500&display=swap" rel="stylesheet">
+</head>
 
 <body>
-        <header>
-            <nav>
-                <div class="logo">
-                    <img src="img/maleta.png" alt="Logo de maletin">
-                </div>
-                <ul>
-                    <li><a href="#sobre-mi">Sobre mí</a></li>
-                    <li><a href="#contacto">Contacto</a></li>
-                </ul>
-            </nav>
-        </header>
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="img/favicon.ico" alt="Logo de maletin">
+            </div>
+            <ul>
+                <li><a href="#sobre-mi"><span>1.</span> Sobre mí</a></li>
+                <li><a href="#contacto"><span>2.</span> Contacto</a></li>
+            </ul>
+        </nav>
+    </header>                        
 
-        <main>
+    <main>
+        <section id="contenedor">
             <div class="img-perfil">
                 <img src="img/1.jpg" alt="Mi foto de perfil">
             </div>
-            <section id="sobre-mi">
-                <h1>Hola! Soy Daniel</h1>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
-                    Cupiditate rerum atque voluptatem doloremque id deleniti 
-                    consectetur nostrum magni tempora, autem maxime labore 
-                    mollitia quibusdam incidunt quaerat, quae nemo at consequatur?. 
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                    Ratione laudantium quas maxime beatae accusantium architecto 
-                    provident expedita voluptas, molestias id natus aliquid velit. 
-                    Nisi officiis consequatur autem nulla harum culpa.</p>
-                <button id="cv"><a href="https://drive.google.com/file/d/1C-bN9yMbboFXh30RV9jeKKBrCc7nCs5u/view?usp=share_link" target="_blank">Descargar mi CV</a></button>
-            </section>
+            <article id="intro">
+                <span>Hola, mi nombre es</span>
+                <h1>Daniel Echeto.</h1>
+                <p>Cuento con experiencia en HTML5,CSS, Javascript y GIT, Actualmente me encuentro estudiado para ser desarrollador web front end, planeo seguir aprendiendo y seguir desarrollando mis habilidades. Tengo interés en formar parte de un equipo de trabajo en donde pueda adquirir y explotar mis conocimientos, seguir desafiando y ampliando mis habilidades constantemente y aprendiendo con nuevos desafíos.
+                </p>
+                <a href="https://drive.google.com/file/d/1C-bN9yMbboFXh30RV9jeKKBrCc7nCs5u/view?usp=share_link" target="_blank"><button id="cv">Descargar mi CV</button></a>
+            </article>
+        </section>
 
-            <section id="hablemos">
-                <h2>Hablemos!</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                    Iste cumque porro ipsum in ut architecto dolorem, beatae, 
-                    libero quas officia rerum fuga voluptatum magnam eaque alias 
-                    officiis? At, optio ex. Lorem ipsum dolor sit amet consectetur 
-                    adipisicing elit. Nesciunt veritatis illo ratione omnis magni 
-                    iste libero aut animi delectus eos sapiente ex assumenda esse, 
-                    aspernatur amet fugiat repellendus laboriosam accusantium.</p>
-            </section>
+        <section id="sobre-mi">
+            <h2>Sobre mí</h2>
+            <p>Responsable con mis actividades y asignaciones,
+                dinámico, cualidad que me facilita tratar con múltiples
+                personas para trabajos en equipo; con el objetivo de
+                aportar la mejor atención y optimizar los servicios
+                prestados, implementando mejores herramientas y
+                estrategias al campo laboral.
+            </p>
+        </section>
+    </main>
 
-            <section id="contacto">
-                <h2>Contacto</h2>
-                <ul id="pie-de-pagina">
-                    <li><a href="mailto:echetoxsar@gmail.com"><img src="img/icono-correo.png"></a></li>
-                    <li><a href="https://www.linkedin.com/in/daniel-echeto-pe%C3%B1a-2329a5202/" target="_blank"><img src="img/icono-linkedin.png"></a></li>
-                    <li><a href="https://github.com/echetoxsar" target="_blank"><img src="img/icono-github.png"></a></li>
-                </ul>
-            </section>
-        </main>
+    <aside>
+        <section id="contacto">
+            <ul id="aside-izquierdo">
+                <li><a href="mailto:echetoxsar@gmail.com"><img src="img/icono-correo.png"></a></li>
+                <li><a href="https://www.linkedin.com/in/daniel-echeto-pe%C3%B1a-2329a5202/" target="_blank"><img
+                            src="img/icono-linkedin.png"></a></li>
+                <li><a href="https://github.com/echetoxsar" target="_blank"><img src="img/icono-github.png"></a></li>
+            </ul>
+            <div id="linea"></div>
+        </section>
+    </aside>
 
-        <footer>
-            <p>Copyright</p>
-        </footer>
+    <footer id="pie-de-pagina">
+        <p>Diseñado y construido por Daniel Echeto</p>
+    </footer>
 </body>
 
 </html>
