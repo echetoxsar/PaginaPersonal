@@ -3,6 +3,7 @@ body {
     font-family: 'Roboto Serif', serif;
     background-color: rgb(14, 22, 42);
     color: #7e86a2;
+    min-height: 100%;
 }
 header {
     text-align: center;
