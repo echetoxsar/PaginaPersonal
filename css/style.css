@@ -3,6 +3,9 @@ html{
 }
 body {
     margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
     font-family: 'Roboto Serif', serif;
     background-color: rgb(14, 22, 42);
     color: #7e86a2;
